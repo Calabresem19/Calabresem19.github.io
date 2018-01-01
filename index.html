@@ -1,1 +1,125 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="desciption" content="Front end web deveopler portfolio of Mike Calabrese">
+    <meta name="keywords" content="Front End, HTMl, CSS, Pittsburgh,Washington DC, JavaScript">
+    <meta name="author" content="Mike Calabrese">
+    <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="800.css" />
+    <link type="text/css" rel="stylesheet" href="portfolio.css">
+    <script type="text/javascript" src="indexScript.js"></script>
+    <script type="text/javascript" src="canvas/p5.js"></script>
+    <script type="text/javascript" src="canvas/sketch.js"></script>
+    <script type="text/javascript" src="canvas/marker.js"></script>
+    <script type="text/javascript" src="canvas/logo.js"></script>
+    <script language="javascript" type="text/javascript" src="canvas/p5.dom.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-89018802-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <title>Mike Calabrese Portfolio </title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="topNav">
+            <a href="index.html"><img id="headerLogo" src="images/LogoCutFinal.png" alt="Logo"></a>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a>
+            </ul>
+            <h1 id="blurb"> "Web Developer with experience in making web projects come to life"</h1>
+            <ul id="belowBlurb">
+                <li>"Interactive</li>
+                <li>Modern</li>
+                <li>Intuitive"</li>
+            </ul>
+        </div>
+
+        <div class="contentIndex">
+
+
+
+            <div id="sketch-holder">
+              
+            </div>
+
+
+
+            <div id="skillBoxes">
+                <div id="descriptionOfSkillsIntro">
+                    <h3>DESCRIPTION OF SKILLS</h3>
+                    <p>Relevant skills that make me an ideal candidate for a Web Development position</p>
+                    <button onclick="showSkills()">Skills</button>
+                </div>
+                <div id="exampleProjectIntro">
+                    <h3>EXAMPLE PROJECTS</h3>
+                    <p>Projects include dynamic websites, dynamic applications, and fun arcade games</p>
+                    <button onclick="showProjects()"> Example Projects </button>
+
+                </div>
+            </div>
+
+
+
+            <div id="white-background">
+
+            </div>
+            <div id="skillBoxAlert">
+                <div id="skillBoxAlert-header">
+                    <h1>Skills <br></h1>
+                </div>
+
+                <div id="skillBoxAlert-body">
+                    <ul id="DescriptionOfSkills">
+                        <li>HTML - A strong grasp on how to use HTML to layout the ground work on how a website should be out<br> </li>
+                        <li>CSS - How to use the appropriate styling techniques and how they can affect a web page <br> </li>
+                        <li>JavaScript - An understanding of the JavaScript programming language and how it can dynamically affect Web-Sites. <br> </li>
+                    </ul>
+                    <button onclick="Back()">Back</button>
+                </div>
+            </div>
+            <div id="ProjectBoxAlert">
+                <div id="ProjectBoxAlert-header">
+                    <h1>Projects<h1>
+      </div>
+      <div id="ProjectBoxAlert-body">
+          <ul id="DescriptionOfProjects">
+            <li> - Interactive Google maps application that lays out important landmarks and places I frequented throughout growing up in Pittsburgh and the surroundings suburbs</li>
+            <li> - A fun recreation of arcade game Battleship. It uses the MVC software design pattern to implement a user interface  </li>
+            <li> - Simple useful applications like calculators that users find useful tools</li>
+            <li> - Dynamic user-friendly websites</li>
+          </ul>
+          <button onclick="Back()">Back</button>
+      </div>
+    </div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+</body>
+
+
+</html>
