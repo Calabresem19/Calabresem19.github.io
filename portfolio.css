@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: table;
+
+
+}
+
+div.wrapper {
+    min-height: 100%;
+    min-width: 960px;
+}
+
+h1 {
+    color: black;
+}
+
+div.topNav {
+    background-color: #33cd74;
+    height: 380px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+
+}
+
+
+div.topNav li {
+    font-size: 25px;
+
+}
+
+.navbar {
+    display: inline;
+    float: right;
+    padding-top: 50px;
+    font-weight: bolder;
+    padding-right: 75px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+div.topNav h1 {
+    text-align: center;
+    color: white;
+    display: block;
+    padding-top: 100px;
+    font-family: Comic sans;
+    , sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#belowBlurb {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#headerLogo {
+    margin-left: 100px;
+    margin-top: 10px;
+    display: inline;
+}
+
+ul li {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 20px;
+}
+
+div#profileText h2 {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+div#profileText h1 {
+    text-align: center;
+    height: 100%;
+    margin: 0 width: 100%;
+    color: black;
+}
+
+div#profileText {
+    text-align: center;
+    color: black:
+}
+
+
+div#profileText ul {
+    padding-top: 40px;
+    text-align: center;
+}
+
+div#profileText ul li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: black;
+}
+
+div#tableRow2 {
+    background: #f2f2f2;
+    color: #3c3c3c;
+    margin-right: 0px;
+    width: 50%;
+    display: table;
+    width: 100%;
+}
+
+div#tableRow2LeftBox {
+    display: none;
+    width: 50%;
+}
+
+div#tableRow2LeftBox li {
+    color: #3c3c3c;
+    display: block;
+    font-size: 20px;
+}
+
+div#tableRow2LeftBox h1 {
+    color: black;
+}
+
+div#tableRow2RightBox {
+    padding-top: 0px;
+    display: none;
+    width: 50%;
+}
+
+div#tableRow2RightBox ul li {
+    color: black;
+    display: block;
+}
+
+div#tableRow2RightBox h1 {
+    color: black;
+    padding-top: 0px;
+}
+
+footer {
+    display: table-row;
+    font-size: 10px;
+    text-align: center;
+    background-color: #33cd74;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 80px;
+}
+
+footer p {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding top 10px;
+}
+
+div.topNav#Secondpages {
+    background: white;
+    height: 100px;
+    margin: 0px;
+}
+
+div.topNav#Secondpages a:link, div.topNav#Secondpages a:visited {
+    color: black;
+}
+
+div.SecondPageHeadings {
+    height: 70px;
+    background-color: #33cd74;
+}
+
+div.SecondPageHeadings h1 {
+    color: white;
+    margin-left: 200px;
+    text-align: left;
+}
+
+div.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 1.8;
+    max-width: 680px;
+    word-break: break-word;
+}
+
+div.content p {
+    display: block
+}
+
+div.contentIndex {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    align-items: center;
+}
+
+div#skillBadgesBar {
+    display: inline;
+    height: 100px;
+}
+
+div#skillBadgesBar div {
+    display: inline-block;
+    text-align: center;
+}
+
+div.logo {
+    padding: 50px;
+}
+
+strong {
+    display: block;
+}
+
+div#skillBadgesBar.logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.logo {
+    max-width: 131px;
+    padding: 30px;
+}
+
+div#download {
+    font-family: 'Trirong', serif;
+    text-align: center;
+    display: block;
+    color: #878686;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #33cd74;
+    color: #33cd74;
+    height: 50px;
+    width: 150px;
+    font-family: 'Trirong', serif;
+    margin: 50px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+div#download button {
+    background: transparent;
+    border: 2px solid #33cd74;
+    color: #33cd74;
+    height: 50px;
+    width: 150px;
+    font-family: 'Trirong', serif;
+    margin: 50px;
+    cursor: pointer;
+}
+
+div#download button a:link, div#download button a:visited {
+    color: #33cd74;
+    font-family: 'Trirong', serif;
+}
+
+div.EmailForm {
+    margin-bottom: 50px;
+}
+
+div.EmailForm div#messageForm {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+div.EmailForm div#contactInfo {
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 20px;
+}
+
+div.EmailForm div#contactInfo div.sideBox {
+    padding-bottom: 25px;
+}
+
+#sendButton {
+    font-family: 'Trirong', serif;
+    background: transparent;
+    border: 2px solid #33cd74;
+    color: #33cd74;
+    height: 50px;
+    width: 150px;
+    font-family: 'Trirong', serif;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #e29860;
+    text-align: center;
+}
+
+div#skillBoxes {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: #565656;
+    display: table;
+    width: 100%;
+    max-width: 1300px;
+    align-content: center;
+    align-self: center;
+}
+
+div#descriptionOfSkillsIntro {
+    display: table-cell;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 500px;
+    text-align: center;
+}
+
+div#exampleProjectIntro {
+    display: table-cell;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 500px;
+    text-align: center;
+}
+
+#white-background {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #fefefe;
+    opacity: 0.7;
+    z-index: 9999;
+}
+
+#skillBoxAlert {
+    display:none;
+    position: absolute;
+    width: 480px;
+    z-index: 9999;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    align-items: center;
+    opacity: 1;
+    left: 100px;
+    top: 100px;
+}
+
+#skillBoxAlert-header {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    align-self: center;
+}
+
+#skillBoxAlert-header h1 {
+    text-align: center;
+    color: white;
+}
+
+#skillBoxAlert-body button {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#DescriptionOfSkills {
+    margin-bottom: 50px;
+}
+
+#DescriptionOfSkills li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#ProjectBoxAlert {
+    display: none;
+    position: absolute;
+    width: 480px;
+    z-index: 9999;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    align-items: center;
+    opacity: 1;
+    left: 500px;
+    top: 500px;
+}
+
+#ProjectBoxAlert-header {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    align-self: center;
+}
+
+#ProjectBoxAlert-header h1 {
+    text-align: center;
+    color: white;
+}
+
+#ProjectBoxAlert-body button {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#DescriptionOfProjects {
+    margin-bottom: 50px;
+}
+
+#DescriptionOfProjects li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+div.PortfolioProjects {
+    display: table;
+    padding-bottom: 100px;
+}
+
+div.PortfolioProjects img {
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    padding-left: 100px;
+}
+
+div.portfolioProjectsDescription {
+    display: table-cell;
+    padding-top: 0px;
+    vertical-align: top;
+}
+
+img#node{
+  height: 100px;
+  width: 100px;
+  float: right;
+
+}
+#sketch-holder {
+  width: auto;
+  display: block;
+  text-align: center;
+
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Interactive Map</title>
+    <meta charset="utf-8" />
+    <meta name="desciption" content="Front end web deveopler portfolio of Mike Calabrese">
+    <meta name="keywords" content="Front End, HTMl, CSS, Pittsburgh,Washington DC, JavaScript">
+    <meta name="author" content="Mike Calabrese">
+    <link type="text/css" rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script type="text/javascript" src="mapAppScript.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfdE0fMOhJ1gmRHzGYGfB4fd4vnRZYaZw&callback=initMap"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-89018802-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="map">
+        </div>
+
+        <div id="title">
+            <h1> Geographical Retrospective</h1>
+        </div>
+
+        <div id="dialogBox">
+            <div id="dialogBox-content">
+                <div id="leftArrow">
+                    <img src="images/leftArrow.png" alt="left arrow">
+                </div>
+
+                <div id="text">
+                    <h2>WELCOME !</h2>
+                </div>
+
+                <div id="rightArrow">
+                    <img src="images/rightArrow.png" alt="right arrow">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

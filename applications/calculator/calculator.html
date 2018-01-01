@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta=c harset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="desciption" content="Calculator">
+    <meta name="keywords" content="Front End, HTMl, CSS, Pittsburgh,Washington DC, JavaScript">
+    <meta name="author" content="Mike Calabrese">
+    <link type="text/css" rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="calculator.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-89018802-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+
+    <div id="calculator">
+        <h1> Calculator</h1>
+        <div id="answer">
+            <input type="text" id="answerBox" name="answer" value="0">
+        </div>
+        <div id="numbers">
+            <table>
+                <tr>
+                    <button id="C">CLEAR</button></td>
+                </tr>
+                <tr>
+                    <td><button id="7">7</button></td>
+                    <td><button id="8">8</button></td>
+                    <td><button id="9">9</button></td>
+                    <td><button id="/">/</button></td>
+                </tr>
+                <td><button id="4">4</button></td>
+                <td><button id="5">5</button></td>
+                <td><button id="6">6</button></td>
+                <td><button id="*">x</button></td>
+                <tr>
+                    <td><button id="1">1</button></td>
+                    <td><button id="2">2</button></td>
+                    <td><button id="3">3</button></td>
+                    <td><button id="-">-</button></td>
+                </tr>
+                <td><button id="0">0</button></td>
+                <td><button id=".">.</button></td>
+                <td><button id="=">=</button></td>
+                <td><button id="+">+</button></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

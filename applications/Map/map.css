@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+
+html, body{
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+#wrapper{
+height: 100%;
+width: 100%;
+background-color: #e3e3e3 ;
+position: absolute;
+
+}
+#mapApp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+}
+#map {
+  height: 100%;
+  width: 100%;
+  position: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+#dialogBox{
+  background-color: #c9c9c9;
+  min-height: 200px;
+  width: 1000px;
+  margin-top: 50px;
+
+  display: table;
+  position: absolute;
+  border-radius: 25px;
+  right:  0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+
+
+
+
+}
+#dialogBox-content {
+  display: table-cell;
+  vertical-align: middle;
+
+
+
+
+}
+#leftArrow{
+display: inline-block;
+padding-left:  20px;
+}
+
+
+#rightArrow {
+
+  display: inline-block;
+  padding-right: 20px;
+  float: right;
+
+}
+#text {
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+p{
+  color: black;
+}
+
+#title {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+h2 {
+  color: black;
+
+}
